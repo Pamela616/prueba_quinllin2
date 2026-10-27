@@ -1,0 +1,6 @@
+install.packages("remotes")
+library(remotes)
+remotes:: install_github("damariscoronel620-collab/prueba_coronel2")
+library(Coronel1)
+area=area_triangulo(4,6)
+print(area)
